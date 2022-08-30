@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Calcular Pedido">
+  <name>Calcular-Pedido</name>
+  <uuid>fa5cedc5-517f-4363-88b1-b38f353f5078</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#22a94e3e-8cd7-4c12-a9d0-508c4cb57b9f"/>
+  <targetRuleProject href="../../Calcular%20Pedido#387ccd7e-42be-4115-a922-3bbe6896c243"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

@@ -1,0 +1,196 @@
+
+
+public class CantidadPlataforma
+        property "ads.typeId" "6"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "CantidadPlataforma"
+        property "de.generated" "true"
+{
+    public double plataformaCentral
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaCentral"
+                property update "true";
+    public double plataformaEste
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaEste"
+                property update "true";
+    public double plataformaNorte
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaNorte"
+                property update "true";
+    public double plataformaOeste
+                property "ads.attributeId" "5"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaOeste"
+                property update "true";
+    public double plataformaSur
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaSur"
+                property update "true";
+    public CantidadPlataforma(double plataformaCentral, double plataformaEste, double plataformaNorte, double plataformaOeste, double plataformaSur)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public CantidadPlataforma()
+                property "dataio.default" "true";
+}
+
+public class CantidadSemanal
+        property "ads.typeId" "7"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "CantidadSemanal"
+        property "de.generated" "true"
+{
+    public double semana1
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Semana1"
+                property update "true";
+    public double semana2
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Semana2"
+                property update "true";
+    public double semana3
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Semana3"
+                property update "true";
+    public double semana4
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Semana4"
+                property update "true";
+    public CantidadSemanal(double semana1, double semana2, double semana3, double semana4)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public CantidadSemanal()
+                property "dataio.default" "true";
+}
+
+public class ListaPedidos
+        property "ads.typeId" "5"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "ListaPedidos"
+        property "de.generated" "true"
+{
+    public PedidoReferencia plataformaCentral
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaCentral"
+                property update "true";
+    public PedidoReferencia plataformaEste
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaEste"
+                property update "true";
+    public PedidoReferencia plataformaNorte
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaNorte"
+                property update "true";
+    public PedidoReferencia plataformaOeste
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaOeste"
+                property update "true";
+    public PedidoReferencia plataformaSur
+                property "ads.attributeId" "5"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaSur"
+                property update "true";
+    public Referencia referencia
+                property "ads.attributeId" "6"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Referencia"
+                property update "true";
+    public ListaPedidos(Referencia referencia, PedidoReferencia plataformaCentral, PedidoReferencia plataformaEste, PedidoReferencia plataformaNorte, PedidoReferencia plataformaOeste, PedidoReferencia plataformaSur)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public ListaPedidos()
+                property "dataio.default" "true";
+}
+
+public class PedidoReferencia
+        property "ads.typeId" "2"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "PedidoReferencia"
+        property "de.generated" "true"
+{
+    public Plataforma plataforma
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Plataforma"
+                property update "true";
+    public double unidades1
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Unidades1"
+                property update "true";
+    public double unidades2
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Unidades2"
+                property update "true";
+    public double unidades3
+                property "ads.attributeId" "5"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Unidades3"
+                property update "true";
+    public double unidades4
+                property "ads.attributeId" "6"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Unidades4"
+                property update "true";
+    public double unidadesTotales
+                property "ads.attributeId" "7"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "UnidadesTotales"
+                property update "true";
+    public PedidoReferencia(Plataforma plataforma, double unidades1, double unidades2, double unidades3, double unidades4, double unidadesTotales)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public PedidoReferencia()
+                property "dataio.default" "true";
+}
+
+public class Plataforma
+        extends java.lang.Enum
+        property "ads.typeId" "3"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "Plataforma"
+        property "de.generated" "true"
+{
+    domain {static central, static este, static norte, static oeste, static sur}
+    public static final readonly Plataforma central
+                property "ads.attributeId" "5"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Central";
+    public static final readonly Plataforma este
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Este";
+    public static final readonly Plataforma norte
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Norte";
+    public static final readonly Plataforma oeste
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Oeste";
+    public static final readonly Plataforma sur
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Sur";
+}
+
+public class Referencia
+        property "ads.typeId" "1"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "Referencia"
+        property "de.generated" "true"
+{
+    public string numeroDeReferencia
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "NumeroDeReferencia"
+                property update "true";
+    public double porcentajeEnStock
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "PorcentajeEnStock"
+                property update "true";
+    public boolean promocion
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Promocion"
+                property update "true";
+    public double unidades
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Unidades"
+                property update "true";
+    public Referencia(string numeroDeReferencia, double porcentajeEnStock, boolean promocion, double unidades)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Referencia()
+                property "dataio.default" "true";
+}
+

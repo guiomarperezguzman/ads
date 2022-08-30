@@ -1,0 +1,8 @@
+{
+  "pedidoInicial": {
+    "NumeroDeReferencia": "32",
+    "PorcentajeEnStock": 1,
+    "Promocion": false,
+    "Unidades": 150
+  }
+}

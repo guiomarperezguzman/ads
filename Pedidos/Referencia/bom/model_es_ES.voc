@@ -1,0 +1,154 @@
+
+# Term: Lista Pedidos
+@Lista\ Pedidos#gender = FEMALE
+
+# Term: Numero de referencia
+@Numero\ de\ referencia#gender = MALE
+
+# Term: Pedido Referencia
+@Pedido\ Referencia#gender = MALE
+
+# Term: Porcentaje en stock
+@Porcentaje\ en\ stock#gender = MALE
+
+# Term: Unidades
+@Unidades#gender = FEMALE
+
+# Term: Unidades1
+@Unidades1#gender = FEMALE
+
+# Term: Unidades2
+@Unidades2#gender = FEMALE
+
+# Term: Unidades3
+@Unidades3#gender = FEMALE
+
+# Term: Unidades4
+@Unidades4#gender = FEMALE
+
+# Term: Unidades Totales
+@Unidades\ Totales#gender = FEMALE
+
+# CantidadPlataforma
+CantidadPlataforma#concept.label = Cantidad Plataforma
+CantidadPlataforma.CantidadPlataforma(double,double,double,double,double)#phrase.navigation = un nuevo {Cantidad Plataforma} en que {0, Plataforma Central} {1, Plataforma Este} {2, Plataforma Norte} {3, Plataforma oeste} {4, Plataforma Sur}
+CantidadPlataforma.plataformaCentral#phrase.action = cambiar la Plataforma Central {this,PARTITIVE_ARTICLE} a {Plataforma Central}
+CantidadPlataforma.plataformaCentral#phrase.addition_setter = añadir {Plataforma Central} a la Plataforma Central {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaCentral#phrase.navigation = {Plataforma Central} {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaCentral#phrase.subtraction_setter = sustraer {Plataforma Central} de la Plataforma Central {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaEste#phrase.action = cambiar la Plataforma Este {this,PARTITIVE_ARTICLE} a {Plataforma Este}
+CantidadPlataforma.plataformaEste#phrase.addition_setter = añadir {Plataforma Este} a la Plataforma Este {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaEste#phrase.navigation = {Plataforma Este} {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaEste#phrase.subtraction_setter = sustraer {Plataforma Este} de la Plataforma Este {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaNorte#phrase.action = cambiar la Plataforma Norte {this,PARTITIVE_ARTICLE} a {Plataforma Norte}
+CantidadPlataforma.plataformaNorte#phrase.addition_setter = añadir {Plataforma Norte} a la Plataforma Norte {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaNorte#phrase.navigation = {Plataforma Norte} {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaNorte#phrase.subtraction_setter = sustraer {Plataforma Norte} de la Plataforma Norte {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaOeste#phrase.action = cambiar la Plataforma oeste {this,PARTITIVE_ARTICLE} a {Plataforma oeste}
+CantidadPlataforma.plataformaOeste#phrase.addition_setter = añadir {Plataforma oeste} a la Plataforma oeste {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaOeste#phrase.navigation = {Plataforma oeste} {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaOeste#phrase.subtraction_setter = sustraer {Plataforma oeste} de la Plataforma oeste {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaSur#phrase.action = cambiar la Plataforma Sur {this,PARTITIVE_ARTICLE} a {Plataforma Sur}
+CantidadPlataforma.plataformaSur#phrase.addition_setter = añadir {Plataforma Sur} a la Plataforma Sur {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaSur#phrase.navigation = {Plataforma Sur} {this,PARTITIVE_ARTICLE}
+CantidadPlataforma.plataformaSur#phrase.subtraction_setter = sustraer {Plataforma Sur} de la Plataforma Sur {this,PARTITIVE_ARTICLE}
+
+# CantidadSemanal
+CantidadSemanal#concept.label = Cantidad Semanal
+CantidadSemanal.CantidadSemanal(double,double,double,double)#phrase.navigation = un nuevo {Cantidad Semanal} en que {0, Semana 1} {1, Semana 2} {2, Semana 3} {3, Semana 4}
+CantidadSemanal.semana1#phrase.action = cambiar la Semana 1 {this,PARTITIVE_ARTICLE} a {Semana 1}
+CantidadSemanal.semana1#phrase.addition_setter = añadir {Semana 1} a la Semana 1 {this,PARTITIVE_ARTICLE}
+CantidadSemanal.semana1#phrase.navigation = {Semana 1} {this,PARTITIVE_ARTICLE}
+CantidadSemanal.semana1#phrase.subtraction_setter = sustraer {Semana 1} de la Semana 1 {this,PARTITIVE_ARTICLE}
+CantidadSemanal.semana2#phrase.action = cambiar la Semana 2 {this,PARTITIVE_ARTICLE} a {Semana 2}
+CantidadSemanal.semana2#phrase.addition_setter = añadir {Semana 2} a la Semana 2 {this,PARTITIVE_ARTICLE}
+CantidadSemanal.semana2#phrase.navigation = {Semana 2} {this,PARTITIVE_ARTICLE}
+CantidadSemanal.semana2#phrase.subtraction_setter = sustraer {Semana 2} de la Semana 2 {this,PARTITIVE_ARTICLE}
+CantidadSemanal.semana3#phrase.action = cambiar la Semana 3 {this,PARTITIVE_ARTICLE} a {Semana 3}
+CantidadSemanal.semana3#phrase.addition_setter = añadir {Semana 3} a la Semana 3 {this,PARTITIVE_ARTICLE}
+CantidadSemanal.semana3#phrase.navigation = {Semana 3} {this,PARTITIVE_ARTICLE}
+CantidadSemanal.semana3#phrase.subtraction_setter = sustraer {Semana 3} de la Semana 3 {this,PARTITIVE_ARTICLE}
+CantidadSemanal.semana4#phrase.action = cambiar la Semana 4 {this,PARTITIVE_ARTICLE} a {Semana 4}
+CantidadSemanal.semana4#phrase.addition_setter = añadir {Semana 4} a la Semana 4 {this,PARTITIVE_ARTICLE}
+CantidadSemanal.semana4#phrase.navigation = {Semana 4} {this,PARTITIVE_ARTICLE}
+CantidadSemanal.semana4#phrase.subtraction_setter = sustraer {Semana 4} de la Semana 4 {this,PARTITIVE_ARTICLE}
+
+# ListaPedidos
+ListaPedidos#concept.label = Lista Pedidos
+ListaPedidos.ListaPedidos(Referencia,PedidoReferencia,PedidoReferencia,PedidoReferencia,PedidoReferencia,PedidoReferencia)#phrase.navigation = una nueva {Lista Pedidos} en que {0, Referencia} {1, Plataforma Central} {2, Plataforma Este} {3, Plataforma Norte} {4, Plataforma Oeste} {5, Plataforma Sur}
+ListaPedidos.plataformaCentral#phrase.action = cambiar la Plataforma Central {this,PARTITIVE_ARTICLE} a {Plataforma Central}
+ListaPedidos.plataformaCentral#phrase.clearer = borrar la Plataforma Central {this,PARTITIVE_ARTICLE}
+ListaPedidos.plataformaCentral#phrase.navigation = {Plataforma Central} {this,PARTITIVE_ARTICLE}
+ListaPedidos.plataformaEste#phrase.action = cambiar la Plataforma Este {this,PARTITIVE_ARTICLE} a {Plataforma Este}
+ListaPedidos.plataformaEste#phrase.clearer = borrar la Plataforma Este {this,PARTITIVE_ARTICLE}
+ListaPedidos.plataformaEste#phrase.navigation = {Plataforma Este} {this,PARTITIVE_ARTICLE}
+ListaPedidos.plataformaNorte#phrase.action = cambiar la Plataforma Norte {this,PARTITIVE_ARTICLE} a {Plataforma Norte}
+ListaPedidos.plataformaNorte#phrase.clearer = borrar la Plataforma Norte {this,PARTITIVE_ARTICLE}
+ListaPedidos.plataformaNorte#phrase.navigation = {Plataforma Norte} {this,PARTITIVE_ARTICLE}
+ListaPedidos.plataformaOeste#phrase.action = cambiar la Plataforma Oeste {this,PARTITIVE_ARTICLE} a {Plataforma Oeste}
+ListaPedidos.plataformaOeste#phrase.clearer = borrar la Plataforma Oeste {this,PARTITIVE_ARTICLE}
+ListaPedidos.plataformaOeste#phrase.navigation = {Plataforma Oeste} {this,PARTITIVE_ARTICLE}
+ListaPedidos.plataformaSur#phrase.action = cambiar la Plataforma Sur {this,PARTITIVE_ARTICLE} a {Plataforma Sur}
+ListaPedidos.plataformaSur#phrase.clearer = borrar la Plataforma Sur {this,PARTITIVE_ARTICLE}
+ListaPedidos.plataformaSur#phrase.navigation = {Plataforma Sur} {this,PARTITIVE_ARTICLE}
+ListaPedidos.referencia#phrase.action = cambiar la Referencia {this,PARTITIVE_ARTICLE} a {Referencia}
+ListaPedidos.referencia#phrase.clearer = borrar la Referencia {this,PARTITIVE_ARTICLE}
+ListaPedidos.referencia#phrase.navigation = {Referencia} {this,PARTITIVE_ARTICLE}
+
+# PedidoReferencia
+PedidoReferencia#concept.documentation = Configuración del pedido de una referencia en semanas
+PedidoReferencia#concept.label = Pedido Referencia
+PedidoReferencia.PedidoReferencia(Plataforma,double,double,double,double,double)#phrase.navigation = un nuevo {Pedido Referencia} en que {0, Plataforma} {1, Unidades1} {2, Unidades2} {3, Unidades3} {4, Unidades4} {5, Unidades Totales}
+PedidoReferencia.plataforma#phrase.action = cambiar la Plataforma {this,PARTITIVE_ARTICLE} a {Plataforma}
+PedidoReferencia.plataforma#phrase.clearer = borrar la Plataforma {this,PARTITIVE_ARTICLE}
+PedidoReferencia.plataforma#phrase.navigation = {Plataforma} {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades1#phrase.action = cambiar la Unidades1 {this,PARTITIVE_ARTICLE} a {Unidades1}
+PedidoReferencia.unidades1#phrase.addition_setter = añadir {Unidades1} a la Unidades1 {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades1#phrase.navigation = {Unidades1} {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades1#phrase.subtraction_setter = sustraer {Unidades1} de la Unidades1 {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades2#phrase.action = cambiar la Unidades2 {this,PARTITIVE_ARTICLE} a {Unidades2}
+PedidoReferencia.unidades2#phrase.addition_setter = añadir {Unidades2} a la Unidades2 {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades2#phrase.navigation = {Unidades2} {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades2#phrase.subtraction_setter = sustraer {Unidades2} de la Unidades2 {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades3#phrase.action = cambiar la Unidades3 {this,PARTITIVE_ARTICLE} a {Unidades3}
+PedidoReferencia.unidades3#phrase.addition_setter = añadir {Unidades3} a la Unidades3 {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades3#phrase.navigation = {Unidades3} {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades3#phrase.subtraction_setter = sustraer {Unidades3} de la Unidades3 {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades4#phrase.action = cambiar la Unidades4 {this,PARTITIVE_ARTICLE} a {Unidades4}
+PedidoReferencia.unidades4#phrase.addition_setter = añadir {Unidades4} a la Unidades4 {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades4#phrase.navigation = {Unidades4} {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidades4#phrase.subtraction_setter = sustraer {Unidades4} de la Unidades4 {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidadesTotales#phrase.action = cambiar la Unidades Totales {this,PARTITIVE_ARTICLE} a {Unidades Totales}
+PedidoReferencia.unidadesTotales#phrase.addition_setter = añadir {Unidades Totales} a la Unidades Totales {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidadesTotales#phrase.navigation = {Unidades Totales} {this,PARTITIVE_ARTICLE}
+PedidoReferencia.unidadesTotales#phrase.subtraction_setter = sustraer {Unidades Totales} de la Unidades Totales {this,PARTITIVE_ARTICLE}
+
+# Plataforma
+Plataforma#concept.label = Plataforma
+Plataforma.central#instance.label = Central
+Plataforma.este#instance.label = Este
+Plataforma.norte#instance.label = Norte
+Plataforma.oeste#instance.label = Oeste
+Plataforma.sur#instance.label = Sur
+
+# Referencia
+Referencia#concept.documentation = Datos relativos a pedidos para una referencia
+Referencia#concept.label = Referencia
+Referencia.Referencia(java.lang.String,double,boolean,double)#phrase.navigation = un nuevo {Referencia} en que {0, Numero de referencia} {1, Porcentaje en stock} {2, Promocion} {3, Unidades}
+Referencia.numeroDeReferencia#phrase.action = cambiar el Numero de referencia {this,PARTITIVE_ARTICLE} a {Numero de referencia}
+Referencia.numeroDeReferencia#phrase.navigation = {Numero de referencia} {this,PARTITIVE_ARTICLE}
+Referencia.porcentajeEnStock#phrase.action = cambiar el Porcentaje en stock {this,PARTITIVE_ARTICLE} a {Porcentaje en stock}
+Referencia.porcentajeEnStock#phrase.addition_setter = añadir {Porcentaje en stock} a el Porcentaje en stock {this,PARTITIVE_ARTICLE}
+Referencia.porcentajeEnStock#phrase.navigation = {Porcentaje en stock} {this,PARTITIVE_ARTICLE}
+Referencia.porcentajeEnStock#phrase.subtraction_setter = sustraer {Porcentaje en stock} de el Porcentaje en stock {this,PARTITIVE_ARTICLE}
+Referencia.promocion#phrase.action[0] = {this} estará en Promoción solo si {Promocion}
+Referencia.promocion#phrase.action[1] = cambiar a {Promocion} el hecho de que {this} es Promoción
+Referencia.promocion#phrase.action[1].deprecated = true
+Referencia.promocion#phrase.navigation = {this} está en Promoción
+Referencia.promocion#phrase.negative_predicate = {this} no está en Promoción
+Referencia.promocion#phrase.negative_predicate_setter = {this} no estará en Promoción
+Referencia.promocion#phrase.positive_predicate_setter = {this} estará en Promoción
+Referencia.unidades#phrase.action = cambiar la Unidades {this,PARTITIVE_ARTICLE} a {Unidades}
+Referencia.unidades#phrase.addition_setter = añadir {Unidades} a la Unidades {this,PARTITIVE_ARTICLE}
+Referencia.unidades#phrase.navigation = {Unidades} {this,PARTITIVE_ARTICLE}
+Referencia.unidades#phrase.subtraction_setter = sustraer {Unidades} de la Unidades {this,PARTITIVE_ARTICLE}

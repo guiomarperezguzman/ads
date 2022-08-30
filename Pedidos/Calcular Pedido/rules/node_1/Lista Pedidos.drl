@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Lista Pedidos</name>
+  <uuid>f40e9583-b2c3-4cfa-935a-c93c2c8f646a</uuid>
+  <locale>es_ES</locale>
+  <definition><![CDATA[si
+	'Cantidad a pedir' es mayor que 0
+entonces
+	asignar a decisión una nueva Lista Pedidos en que
+		la Referencia es 'Pedido Inicial' , 
+		la Plataforma Central es un nuevo Pedido Referencia en que 
+            la Plataforma es Central , 
+            la Unidades1 es 'Cantidad a pedir' * la Semana 1 * la Plataforma Central , 
+            la Unidades2 es 'Cantidad a pedir' * la Semana 2 * la Plataforma Central , 
+            la Unidades3 es 'Cantidad a pedir' * la Semana 3 * la Plataforma Central , 
+            la Unidades4 es 'Cantidad a pedir' * la Semana 4 * la Plataforma Central , 
+            la Unidades Totales es 'Cantidad a pedir' * la Plataforma Central , 
+		la Plataforma Este es un nuevo Pedido Referencia en que 
+            la Plataforma es Este , 
+            la Unidades1 es 'Cantidad a pedir' * la Semana 1 * la Plataforma Este , 
+            la Unidades2 es 'Cantidad a pedir' * la Semana 2 * la Plataforma Este , 
+            la Unidades3 es 'Cantidad a pedir' * la Semana 3 * la Plataforma Este , 
+            la Unidades4 es 'Cantidad a pedir' * la Semana 4 * la Plataforma Este , 
+            la Unidades Totales es 'Cantidad a pedir' * la Plataforma Este , 
+		la Plataforma Norte es un nuevo Pedido Referencia en que 
+            la Plataforma es Norte , 
+            la Unidades1 es 'Cantidad a pedir' * la Semana 1 * la Plataforma Norte , 
+            la Unidades2 es 'Cantidad a pedir' * la Semana 2 * la Plataforma Norte , 
+            la Unidades3 es 'Cantidad a pedir' * la Semana 3 * la Plataforma Norte , 
+            la Unidades4 es 'Cantidad a pedir' * la Semana 4 * la Plataforma Norte , 
+            la Unidades Totales es 'Cantidad a pedir' * la Plataforma Norte , 
+		la Plataforma Oeste es un nuevo Pedido Referencia en que 
+            la Plataforma es Oeste , 
+            la Unidades1 es 'Cantidad a pedir' * la Semana 1 * la Plataforma oeste , 
+            la Unidades2 es 'Cantidad a pedir' * la Semana 2 * la Plataforma oeste , 
+            la Unidades3 es 'Cantidad a pedir' * la Semana 3 * la Plataforma oeste , 
+            la Unidades4 es 'Cantidad a pedir' * la Semana 4 * la Plataforma oeste , 
+            la Unidades Totales es 'Cantidad a pedir' * la Plataforma oeste , 
+		la Plataforma Sur es un nuevo Pedido Referencia en que 
+            la Plataforma es Sur , 
+            la Unidades1 es 'Cantidad a pedir' * la Semana 1 * la Plataforma Sur , 
+            la Unidades2 es 'Cantidad a pedir' * la Semana 2 * la Plataforma Sur , 
+            la Unidades3 es 'Cantidad a pedir' * la Semana 3 * la Plataforma Sur , 
+            la Unidades4 es 'Cantidad a pedir' * la Semana 4 * la Plataforma Sur , 
+            la Unidades Totales es 'Cantidad a pedir' * la Plataforma Sur ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
