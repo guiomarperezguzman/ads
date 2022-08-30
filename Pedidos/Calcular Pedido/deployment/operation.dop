@@ -4,4 +4,13 @@
   <uuid>fa5cedc5-517f-4363-88b1-b38f353f5078</uuid>
   <decisionModel href="../rules/decisionModel.dmo#22a94e3e-8cd7-4c12-a9d0-508c4cb57b9f"/>
   <targetRuleProject href="../../Calcular%20Pedido#387ccd7e-42be-4115-a922-3bbe6896c243"/>
+  <tags key="operationDescription">
+    <value><![CDATA["API para calcular el pedido semanal por regiones a partir de un pedido inicial"]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["Calcular-Pedido"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
 </com.ibm.rules.studio.model.decisionservice:Operation>
