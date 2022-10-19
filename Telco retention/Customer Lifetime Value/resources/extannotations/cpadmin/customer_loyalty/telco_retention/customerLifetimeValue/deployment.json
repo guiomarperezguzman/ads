@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "id" : "02d603c5-b91b-43ca-95a9-21c0a410ecff",
+    "name" : "Customer LTV Model",
+    "modified_at" : "2022-10-19T15:16:22.472Z",
+    "created_at" : "2022-10-19T15:16:22.472Z",
+    "owner" : "IBMid-663002HURF",
+    "space_id" : "90478d90-fbc3-479a-92c8-7da7fdf73772"
+  },
+  "entity" : {
+    "name" : "Customer LTV Model",
+    "space_id" : "90478d90-fbc3-479a-92c8-7da7fdf73772",
+    "custom" : { },
+    "online" : { },
+    "status" : {
+      "state" : "ready",
+      "online_url" : {
+        "url" : "https://eu-de.ml.cloud.ibm.com/ml/v4/deployments/02d603c5-b91b-43ca-95a9-21c0a410ecff/predictions"
+      }
+    },
+    "asset" : {
+      "id" : "cf5f73b1-7dc8-4fd0-a2e8-7f82f87b5f9b"
+    }
+  },
+  "name" : "Customer LTV Model",
+  "status" : "ready",
+  "deployedAt" : "2022-10-19T15:16:22.472Z"
+}

@@ -1,0 +1,56 @@
+
+# cpadmin.customer_loyalty.telco_retention.customerChurn.Error
+cpadmin.customer_loyalty.telco_retention.customerChurn.Error#concept.label = Output error
+cpadmin.customer_loyalty.telco_retention.customerChurn.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = a new {Output error} where {0, code} {1, message} 
+cpadmin.customer_loyalty.telco_retention.customerChurn.Error.code#phrase.action = set the code of {this} to {code}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Error.code#phrase.navigation = {code} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Error.message#phrase.action = set the message of {this} to {message}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Error.message#phrase.navigation = {message} of {this}
+
+# cpadmin.customer_loyalty.telco_retention.customerChurn.Input
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input#concept.label = ML model input
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.Input(java.math.BigDecimal,java.lang.String,java.lang.Long,java.math.BigDecimal,java.lang.String,java.lang.String,java.lang.Long,java.lang.String,java.lang.Double)#phrase.navigation = a new {ML model input} where {0, age} {1, car owner} {2, children} {3, est income} {4, gender} {5, paymethod} {6, rateplan} {7, status} {8, usage} 
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.age#phrase.action = set the age of {this} to {age}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.age#phrase.addition_setter = add {age} to the age of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.age#phrase.navigation = {age} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.age#phrase.subtraction_setter = subtract {age} from the age of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.carOwner#phrase.action = set the car owner of {this} to {car owner}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.carOwner#phrase.navigation = {car owner} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.children#phrase.action = set the children of {this} to {children}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.children#phrase.addition_setter = add {children} to the children of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.children#phrase.navigation = {children} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.children#phrase.subtraction_setter = subtract {children} from the children of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.estIncome#phrase.action = set the est income of {this} to {est income}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.estIncome#phrase.addition_setter = add {est income} to the est income of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.estIncome#phrase.navigation = {est income} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.estIncome#phrase.subtraction_setter = subtract {est income} from the est income of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.gender#phrase.action = set the gender of {this} to {gender}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.gender#phrase.navigation = {gender} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.paymethod#phrase.action = set the paymethod of {this} to {paymethod}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.paymethod#phrase.navigation = {paymethod} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.rateplan#phrase.action = set the rateplan of {this} to {rateplan}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.rateplan#phrase.addition_setter = add {rateplan} to the rateplan of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.rateplan#phrase.navigation = {rateplan} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.rateplan#phrase.subtraction_setter = subtract {rateplan} from the rateplan of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.status#phrase.action = set the status of {this} to {status}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.status#phrase.navigation = {status} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.usage#phrase.action = set the usage of {this} to {usage}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.usage#phrase.addition_setter = add {usage} to the usage of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.usage#phrase.navigation = {usage} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Input.usage#phrase.subtraction_setter = subtract {usage} from the usage of {this}
+
+# cpadmin.customer_loyalty.telco_retention.customerChurn.Output
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output#concept.label = ML model output
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.Output(java.lang.String,java.util.List)#phrase.navigation = a new {ML model output} where {0, prediction} {1, probability} 
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.addTo_probability(java.lang.Double)#phrase.action = add {0} to the probabilities of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.clear_probability()#phrase.action = clear the probabilities of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.error#phrase.action = set the error of {this} to {error}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.error#phrase.clearer = clear the error of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.error#phrase.navigation = {error} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.inError()#phrase.navigation = {this} is in error
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.prediction#phrase.action = set the prediction of {this} to {prediction}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.prediction#phrase.navigation = {prediction} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.probability#phrase.action = set the probabilities of {this} to {probability}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.probability#phrase.navigation = {probability} of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.removeFrom_probability(java.lang.Double)#phrase.action = remove {0} from the probabilities of {this}
+cpadmin.customer_loyalty.telco_retention.customerChurn.Output.run(cpadmin.customer_loyalty.telco_retention.customerChurn.Input)#phrase.navigation = predict({0})

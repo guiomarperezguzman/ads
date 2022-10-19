@@ -1,0 +1,9 @@
+{
+  "name" : "cpadmin/Customer-Loyalty/watson-ml-customer1666190141032",
+  "type" : "WML",
+  "description" : "",
+  "mlUrl" : "https://eu-de.ml.cloud.ibm.com",
+  "authUrl" : "https://iam.bluemix.net/identity/token",
+  "instanceId" : "90478d90-fbc3-479a-92c8-7da7fdf73772",
+  "apiKey" : null
+}
