@@ -57,6 +57,7 @@
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="cpadmin.customer_loyalty.telco_retention.customerLifetimeValue.Output" collection="false" name="ML model invocation"/>
+                <input bomType="Subscription" collection="false" name="Subscription"/>
                 <output bomType="java.lang.Double" collection="false" name="Output mapping"/>
                 <rule defaultRule="false" href="output-mapping/check%20error.drl" kind="BusinessRule" name="check error"/>
                 <rule defaultRule="true" href="output-mapping/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
@@ -65,6 +66,9 @@
         <variable id="output_mapping_ii" name="Output mapping" typeRef="java.lang.Double"/>
         <informationRequirement>
             <requiredInput href="#output"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_1"/>
         </informationRequirement>
     </decision>
     <inputData id="node_1" name="Subscription">

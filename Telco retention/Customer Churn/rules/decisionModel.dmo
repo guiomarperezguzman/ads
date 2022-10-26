@@ -57,15 +57,20 @@
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="cpadmin.customer_loyalty.telco_retention.customerChurn.Output" collection="false" name="ML model invocation"/>
+                <input bomType="CustomerRecord" collection="false" name="Customer"/>
                 <output bomType="java.lang.Double" collection="false" name="Output mapping"/>
                 <rule defaultRule="false" href="output-mapping/check%20error.drl" kind="BusinessRule" name="check error"/>
                 <rule defaultRule="false" href="output-mapping/get%20churn%20probability.drl" kind="BusinessRule" name="get churn probability"/>
                 <rule defaultRule="true" href="output-mapping/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
+                <rule defaultRule="false" href="output-mapping/Churn%20default%20by%20gender%20and%20marital%20status.dmt" kind="DecisionTable" name="Churn default by gender and marital status"/>
             </ruleset>
         </extensionElements>
         <variable id="output_mapping_ii" name="Output mapping" typeRef="java.lang.Double"/>
         <informationRequirement>
             <requiredInput href="#output"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#input"/>
         </informationRequirement>
     </decision>
     <inputData id="node_1" name="Subscription">

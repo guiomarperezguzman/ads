@@ -85,7 +85,7 @@
             <Data Name="Definitions(A0)#Width"><![CDATA[751]]></Data>
             <Data Name="Definitions(A0)[0]#HeaderText"><![CDATA[age]]></Data>
             <Data Name="Definitions(A0)#HeaderText"><![CDATA[ML rate plan]]></Data>
-            <Data Name="Definitions(C0)#Width"><![CDATA[385]]></Data>
+            <Data Name="Definitions(C0)#Width"><![CDATA[178]]></Data>
         </ResourceSet>
     </Resources>
 </DT></definition>
