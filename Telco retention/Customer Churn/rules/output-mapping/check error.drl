@@ -6,6 +6,6 @@
   <definition><![CDATA[if
      'ML model invocation' is in error 
 then
-   set decision to 0.5 ;
+    set decision to 0.5 ;
 ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

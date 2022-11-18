@@ -6,8 +6,8 @@
   <definition><![CDATA[add a new offer where 
 
     the message is "Send " + the name + " a customer satisfaction survey.",
-    the estimated cost is 0
-
+    the estimated cost is 0,
+    the 
  to decision ;
 ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
