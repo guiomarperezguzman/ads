@@ -5,6 +5,7 @@
   <locale>en_US</locale>
   <definition><![CDATA[set decision to a new offer where
         the estimated cost is 0, 
-        the message is "No offer for this customer" ;
+        the message is "No offer for this customer",
+        the discount type is survey ;
 ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
