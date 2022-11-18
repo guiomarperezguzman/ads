@@ -31,6 +31,14 @@ CustomerRecord.newAttribute2#phrase.addition_setter = add {age} to the age of {t
 CustomerRecord.newAttribute2#phrase.navigation = {age} of {this}
 CustomerRecord.newAttribute2#phrase.subtraction_setter = subtract {age} from the age of {this}
 
+# DiscountType
+DiscountType#concept.documentation = 
+DiscountType#concept.label = discount type
+DiscountType.highDiscount#instance.label = high discount
+DiscountType.lowCost#instance.label = low cost
+DiscountType.survey#instance.label = survey
+DiscountType.upgrade#instance.label = upgrade
+
 # Location
 Location#concept.label = location
 Location.country#instance.label = country
@@ -39,7 +47,10 @@ Location.urban#instance.label = urban
 
 # Offer
 Offer#concept.label = offer
-Offer.Offer(java.lang.String,double)#phrase.navigation = a new {offer} where {0, message} {1, estimated cost}
+Offer.Offer(java.lang.String,double,DiscountType)#phrase.navigation = a new {offer} where {0, message} {1, estimated cost} {2, discount type}
+Offer.discountType#phrase.action = set the discount type of {this} to {discount type}
+Offer.discountType#phrase.clearer = clear the discount type of {this}
+Offer.discountType#phrase.navigation = {discount type} of {this}
 Offer.message#phrase.action = set the message of {this} to {message}
 Offer.message#phrase.navigation = {message} of {this}
 Offer.newAttribute#phrase.action = set the estimated cost of {this} to {estimated cost}

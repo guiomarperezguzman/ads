@@ -46,6 +46,27 @@ public class CustomerRecord
                 property "dataio.default" "true";
 }
 
+public class DiscountType
+        extends java.lang.Enum
+        property "ads.typeId" "6"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "discountType"
+        property "de.generated" "true"
+{
+    domain {static highDiscount, static lowCost, static survey, static upgrade}
+    public static final readonly DiscountType highDiscount
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "highDiscount";
+    public static final readonly DiscountType lowCost
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "lowCost";
+    public static final readonly DiscountType survey
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "survey";
+    public static final readonly DiscountType upgrade
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "upgrade";
+}
+
 public class Location
         extends java.lang.Enum
         property "ads.typeId" "2"
@@ -69,6 +90,10 @@ public class Offer
         property "com.fasterxml.jackson.annotation.JsonTypeName" "offer"
         property "de.generated" "true"
 {
+    public DiscountType discountType
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "discountType"
+                property update "true";
     public string message
                 property "ads.attributeId" "2"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "message"
@@ -77,7 +102,7 @@ public class Offer
                 property "ads.attributeId" "1"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "estimatedCost"
                 property update "true";
-    public Offer(string message, double newAttribute)
+    public Offer(string message, double newAttribute, DiscountType discountType)
                 property autoExpand "true"
                 property beanConstructor "true"
                 property groups "BALA"
