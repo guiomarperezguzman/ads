@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>cpadmin.customer_loyalty.telco_retention</groupId>
+        <groupId>guiomar.perez_ibm.com.gpg_rules.telco_retention</groupId>
         <artifactId>telcoRetention</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>

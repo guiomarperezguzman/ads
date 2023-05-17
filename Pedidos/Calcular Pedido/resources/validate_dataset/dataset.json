@@ -1,8 +1,11 @@
 {
-  "pedidoInicial": {
-    "NumeroDeReferencia": "32",
-    "PorcentajeEnStock": 1,
-    "Promocion": false,
-    "Unidades": 150
+  "operationId" : "fa5cedc5-517f-4363-88b1-b38f353f5078",
+  "body" : {
+    "pedidoInicial" : {
+      "NumeroDeReferencia" : "32",
+      "PorcentajeEnStock" : 1,
+      "Promocion" : false,
+      "Unidades" : 150
+    }
   }
 }

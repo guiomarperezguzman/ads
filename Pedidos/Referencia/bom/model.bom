@@ -1,4 +1,6 @@
 
+package cpadmin.compras.pedidos.referencia;
+
 
 public class CantidadPlataforma
         property "ads.typeId" "6"
@@ -69,31 +71,31 @@ public class ListaPedidos
         property "com.fasterxml.jackson.annotation.JsonTypeName" "ListaPedidos"
         property "de.generated" "true"
 {
-    public PedidoReferencia plataformaCentral
+    public cpadmin.compras.pedidos.referencia.PedidoReferencia plataformaCentral
                 property "ads.attributeId" "1"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaCentral"
                 property update "true";
-    public PedidoReferencia plataformaEste
+    public cpadmin.compras.pedidos.referencia.PedidoReferencia plataformaEste
                 property "ads.attributeId" "2"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaEste"
                 property update "true";
-    public PedidoReferencia plataformaNorte
+    public cpadmin.compras.pedidos.referencia.PedidoReferencia plataformaNorte
                 property "ads.attributeId" "4"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaNorte"
                 property update "true";
-    public PedidoReferencia plataformaOeste
+    public cpadmin.compras.pedidos.referencia.PedidoReferencia plataformaOeste
                 property "ads.attributeId" "3"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaOeste"
                 property update "true";
-    public PedidoReferencia plataformaSur
+    public cpadmin.compras.pedidos.referencia.PedidoReferencia plataformaSur
                 property "ads.attributeId" "5"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "PlataformaSur"
                 property update "true";
-    public Referencia referencia
+    public cpadmin.compras.pedidos.referencia.Referencia referencia
                 property "ads.attributeId" "6"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "Referencia"
                 property update "true";
-    public ListaPedidos(Referencia referencia, PedidoReferencia plataformaCentral, PedidoReferencia plataformaEste, PedidoReferencia plataformaNorte, PedidoReferencia plataformaOeste, PedidoReferencia plataformaSur)
+    public ListaPedidos(cpadmin.compras.pedidos.referencia.PedidoReferencia plataformaCentral, cpadmin.compras.pedidos.referencia.PedidoReferencia plataformaEste, cpadmin.compras.pedidos.referencia.PedidoReferencia plataformaNorte, cpadmin.compras.pedidos.referencia.PedidoReferencia plataformaOeste, cpadmin.compras.pedidos.referencia.PedidoReferencia plataformaSur, cpadmin.compras.pedidos.referencia.Referencia referencia)
                 property autoExpand "true"
                 property beanConstructor "true"
                 property groups "BALA"
@@ -107,7 +109,7 @@ public class PedidoReferencia
         property "com.fasterxml.jackson.annotation.JsonTypeName" "PedidoReferencia"
         property "de.generated" "true"
 {
-    public Plataforma plataforma
+    public cpadmin.compras.pedidos.referencia.Plataforma plataforma
                 property "ads.attributeId" "2"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "Plataforma"
                 property update "true";
@@ -131,7 +133,7 @@ public class PedidoReferencia
                 property "ads.attributeId" "7"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "UnidadesTotales"
                 property update "true";
-    public PedidoReferencia(Plataforma plataforma, double unidades1, double unidades2, double unidades3, double unidades4, double unidadesTotales)
+    public PedidoReferencia(cpadmin.compras.pedidos.referencia.Plataforma plataforma, double unidades1, double unidades2, double unidades3, double unidades4, double unidadesTotales)
                 property autoExpand "true"
                 property beanConstructor "true"
                 property groups "BALA"
@@ -147,19 +149,19 @@ public class Plataforma
         property "de.generated" "true"
 {
     domain {static central, static este, static norte, static oeste, static sur}
-    public static final readonly Plataforma central
+    public static final readonly cpadmin.compras.pedidos.referencia.Plataforma central
                 property "ads.attributeId" "5"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "Central";
-    public static final readonly Plataforma este
+    public static final readonly cpadmin.compras.pedidos.referencia.Plataforma este
                 property "ads.attributeId" "3"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "Este";
-    public static final readonly Plataforma norte
+    public static final readonly cpadmin.compras.pedidos.referencia.Plataforma norte
                 property "ads.attributeId" "1"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "Norte";
-    public static final readonly Plataforma oeste
+    public static final readonly cpadmin.compras.pedidos.referencia.Plataforma oeste
                 property "ads.attributeId" "4"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "Oeste";
-    public static final readonly Plataforma sur
+    public static final readonly cpadmin.compras.pedidos.referencia.Plataforma sur
                 property "ads.attributeId" "2"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "Sur";
 }

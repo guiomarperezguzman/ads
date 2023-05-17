@@ -1,1 +1,6 @@
-{"description":"Reglas para los pedidos ","locale":"es_ES","properties":{}}
+{
+  "description" : "Reglas para los pedidos ",
+  "locale" : "es_ES",
+  "properties" : { },
+  "groupId" : "guiomar.perez_ibm.com.gpg_rules.pedidos"
+}
