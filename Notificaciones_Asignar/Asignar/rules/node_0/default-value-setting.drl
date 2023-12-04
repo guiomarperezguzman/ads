@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>default-value-setting</name>
+  <uuid>b73da693-91d3-47fb-8d35-86ccf910eb80</uuid>
+  <locale>es_ES</locale>
+  <definition><![CDATA[asignar a Usuario un nuevo Usuario en que
+		el Identificador es "USU01" , 
+		el Nombre es "Paco" , 
+		el Rol es Tramitador , 
+		el Órgano jurisdiccional es Madrid Juzgado de Primera Instancia 1 ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

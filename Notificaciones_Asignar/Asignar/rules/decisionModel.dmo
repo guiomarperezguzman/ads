@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
+  <name>decisionModel</name>
+  <uuid>0edfd7de-92bf-4022-ad42-5043331a1cd0</uuid>
+  <locale>es_ES</locale>
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="decisions" name="diagram" namespace="">
+    <extensionElements>
+        <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="es_ES"/>
+    </extensionElements>
+    <inputData id="node_0" name="Usuario">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario" collection="false" name="Usuario"/>
+                <rule defaultRule="true" href="node_0/default-value-setting.drl" kind="BusinessRule" name="default-value-setting"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_0_ii" name="Usuario" typeRef="guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario"/>
+    </inputData>
+    <decision id="node_1" name="Lista tramites">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario" collection="false" name="Usuario"/>
+                <output bomType="guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite" collection="true" name="Lista tramites"/>
+                <rule defaultRule="false" href="node_1/Crear%20lista%20tramites.dmt" kind="DecisionTable" name="Crear lista tramites"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_1_ii" name="Lista tramites" typeRef="guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite[]"/>
+        <informationRequirement>
+            <requiredInput href="#node_0"/>
+        </informationRequirement>
+    </decision>
+</definitions>
+</definition>
+</com.ibm.rules.studio.model.decisionmodel:DecisionModel>

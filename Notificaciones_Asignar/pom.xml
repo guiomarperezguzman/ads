@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>guiomar.perez_ibm.com.gpg_rules.telco_retention</groupId>
-    <artifactId>telcoRetention</artifactId>
+    <groupId>guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar</groupId>
+    <artifactId>notificaciones_Asignar</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Telco retention</name>
-    <description>This decision service has to be connected to two ML models.
-
-Follow https://github.com/icp4a/automation-decision-services-samples/tree/21.0.3/samples/MachineLearningCustomerLoyaltySample to connect the two predictive models.
-
- </description>
+    <name>Notificaciones_Asignar</name>
+    <description>Proporcionar propuesta de asignación de notificaciones</description>
 
     <packaging>pom</packaging>
 
@@ -68,11 +64,9 @@ Follow https://github.com/icp4a/automation-decision-services-samples/tree/21.0.3
         </dependencies>
     </dependencyManagement>
     <modules>
-        <module>Customer Lifetime Value</module>
+        <module>Notificaciones</module>
         <module>.decisionservice</module>
-        <module>Customer Churn</module>
-        <module>Retention offer</module>
-        <module>Data</module>
+        <module>Asignar</module>
     </modules>
 
     <build>
@@ -95,9 +89,8 @@ Follow https://github.com/icp4a/automation-decision-services-samples/tree/21.0.3
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>${maven-surefire-plugin.version}</version>
                     <configuration>
-                        
                         <redirectTestOutputToFile>true</redirectTestOutputToFile>
-                    <statelessTestsetReporter implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5Xml30StatelessReporter">
+                        <statelessTestsetReporter implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5Xml30StatelessReporter">
                             <disable>false</disable>
                             <version>3.0</version>
                             <usePhrasedFileName>false</usePhrasedFileName>

@@ -1,0 +1,96 @@
+
+# Term: Identificador
+@Identificador#gender = MALE
+
+# Term: Nombre
+@Nombre#gender = MALE
+
+# Term: Plazo
+@Plazo#gender = MALE
+
+# Term: Rol
+@Rol#gender = MALE
+
+# Term: Roles
+@Roles#gender = MALE
+
+# Term: Tipo de procedimiento
+@Tipo\ de\ procedimiento#gender = MALE
+
+# Term: Tramite
+@Tramite#gender = MALE
+
+# Term: Usuario
+@Usuario#gender = MALE
+
+# Term: Órgano jurisdiccional
+@Órgano\ jurisdiccional#article.definite = el
+@Órgano\ jurisdiccional#article.definite.plural = los
+@Órgano\ jurisdiccional#article.demonstrative = este
+@Órgano\ jurisdiccional#article.indefinite = un
+@Órgano\ jurisdiccional#article.indefinite.plural = unos
+@Órgano\ jurisdiccional#article.quantitative.plural = todos los
+@Órgano\ jurisdiccional#gender = FEMALE
+
+# guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles#concept.label = Roles
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles.abogado#instance.label = Abogado
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles.aceptador#instance.label = Aceptador
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles.tramitador#instance.label = Tramitador
+
+# guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento#concept.label = Tipo de procedimiento
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento.apelacionDeVerbal#instance.label = Apelacion de verbal
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento.escrito#instance.label = Escrito
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento.recurso#instance.label = Recurso
+
+# guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite#concept.label = Tramite
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.Tramite(java.lang.String,java.lang.String,ilog.rules.brl.SimpleDate,ilog.rules.brl.SimpleDate,java.lang.String,java.lang.Long,guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento,java.lang.String,guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional)#phrase.navigation = un nuevo {Tramite} en que {0, Abogado} {1, Asunto} {2, Fecha de puesta a disposición} {3, Fecha límite} {4, Identificador} {5, Plazo} {6, Tipo de procedimiento} {7, Tramitador} {8, Órgano jurisdiccional}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.abogado#phrase.action = cambiar el Abogado {this,PARTITIVE_ARTICLE} a {Abogado}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.abogado#phrase.navigation = {Abogado} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.asunto#phrase.action = cambiar el Asunto {this,PARTITIVE_ARTICLE} a {Asunto}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.asunto#phrase.navigation = {Asunto} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.fechaDePuestaADisposición#phrase.action = cambiar la Fecha de puesta a disposición {this,PARTITIVE_ARTICLE} a {Fecha de puesta a disposición}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.fechaDePuestaADisposición#phrase.navigation = {Fecha de puesta a disposición} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.fechaLímite#phrase.action = cambiar la Fecha límite {this,PARTITIVE_ARTICLE} a {Fecha límite}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.fechaLímite#phrase.navigation = {Fecha límite} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.identificador#phrase.action = cambiar el Identificador {this,PARTITIVE_ARTICLE} a {Identificador}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.identificador#phrase.navigation = {Identificador} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.plazo#phrase.action = cambiar el Plazo {this,PARTITIVE_ARTICLE} a {Plazo}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.plazo#phrase.addition_setter = añadir {Plazo} a el Plazo {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.plazo#phrase.navigation = {Plazo} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.plazo#phrase.subtraction_setter = sustraer {Plazo} de el Plazo {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.tipoDeProcedimiento#phrase.action = cambiar el Tipo de procedimiento {this,PARTITIVE_ARTICLE} a {Tipo de procedimiento}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.tipoDeProcedimiento#phrase.clearer = borrar el Tipo de procedimiento {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.tipoDeProcedimiento#phrase.navigation = {Tipo de procedimiento} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.tramitador#phrase.action = cambiar el Tramitador {this,PARTITIVE_ARTICLE} a {Tramitador}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.tramitador#phrase.navigation = {Tramitador} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.órganoJurisdiccional#phrase.action = cambiar el Órgano jurisdiccional {this,PARTITIVE_ARTICLE} a {Órgano jurisdiccional}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.órganoJurisdiccional#phrase.clearer = borrar el Órgano jurisdiccional {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Tramite.órganoJurisdiccional#phrase.navigation = {Órgano jurisdiccional} {this,PARTITIVE_ARTICLE}
+
+# guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario#concept.label = Usuario
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.Usuario(java.lang.String,java.lang.String,guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles,guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional)#phrase.navigation = un nuevo {Usuario} en que {0, Identificador} {1, Nombre} {2, Rol} {3, Órgano jurisdiccional}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.identificador#phrase.action = cambiar el Identificador {this,PARTITIVE_ARTICLE} a {Identificador}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.identificador#phrase.navigation = {Identificador} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.nombre#phrase.action = cambiar el Nombre {this,PARTITIVE_ARTICLE} a {Nombre}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.nombre#phrase.navigation = {Nombre} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.rol#phrase.action = cambiar el Rol {this,PARTITIVE_ARTICLE} a {Rol}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.rol#phrase.clearer = borrar el Rol {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.rol#phrase.navigation = {Rol} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.órganoJurisdiccional#phrase.action = cambiar el Órgano jurisdiccional {this,PARTITIVE_ARTICLE} a {Órgano jurisdiccional}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.órganoJurisdiccional#phrase.action.documentation = 
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.órganoJurisdiccional#phrase.clearer = borrar el Órgano jurisdiccional {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.órganoJurisdiccional#phrase.clearer.documentation = 
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.órganoJurisdiccional#phrase.navigation = {Órgano jurisdiccional} {this,PARTITIVE_ARTICLE}
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Usuario.órganoJurisdiccional#phrase.navigation.documentation = 
+
+# guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional#concept.label = Órgano jurisdiccional
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional.madridJuzgadoDeLoMercantil1#instance.label = Madrid Juzgado de lo Mercantil 1
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional.madridJuzgadoDeLoMercantil2#instance.label = Madrid Juzgado de lo Mercantil 2
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional.madridJuzgadoDeLoSocial1#instance.label = Madrid Juzgado de lo Social 1
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional.madridJuzgadoDePrimeraInstancia1#instance.label = Madrid Juzgado de Primera Instancia 1
+guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional.madridJuzgadoDePrimeraInstancia2#instance.label = Madrid Juzgado de Primera Instancia 2
