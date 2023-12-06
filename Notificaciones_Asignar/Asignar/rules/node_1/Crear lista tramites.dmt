@@ -75,7 +75,7 @@
                     <Partition DefId="C1">
                         <Condition>
                             <Expression>
-                                <Param><![CDATA[Tramitador]]></Param>
+                                <Param><![CDATA[Abogado]]></Param>
                             </Expression>
                             <ActionSet>
                                 <Action DefId="A0">
@@ -102,7 +102,7 @@
                     <Partition DefId="C1">
                         <Condition>
                             <Expression>
-                                <Param><![CDATA[Tramitador]]></Param>
+                                <Param><![CDATA[Aceptador]]></Param>
                             </Expression>
                             <ActionSet>
                                 <Action DefId="A0">
@@ -123,12 +123,61 @@
                     </Partition>
                 </Condition>
                 <Condition>
-                    <Expression/>
-                    <ActionSet/>
+                    <Expression>
+                        <Text><![CDATA[<un objeto> no es <un objeto>]]></Text>
+                        <Param><![CDATA[Madrid Juzgado de Primera Instancia 1]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
+                        <Condition>
+                            <Expression>
+                                <Param><![CDATA[Abogado]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["Pepe"]]></Param>
+                                        <Param><![CDATA["Ejecución"]]></Param>
+                                        <Param><![CDATA[04/12/2023]]></Param>
+                                        <Param><![CDATA[18/12/2023]]></Param>
+                                        <Param><![CDATA["1267/2022"]]></Param>
+                                        <Param><![CDATA[10]]></Param>
+                                        <Param><![CDATA[Escrito]]></Param>
+                                        <Param><![CDATA["Eugenio"]]></Param>
+                                        <Param><![CDATA[Madrid Juzgado de Primera Instancia 1]]></Param>
+                                    </Expression>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                    </Partition>
                 </Condition>
                 <Condition>
-                    <Expression/>
-                    <ActionSet/>
+                    <Expression>
+                        <Text><![CDATA[<un objeto> no es <un objeto>]]></Text>
+                        <Param><![CDATA[Madrid Juzgado de Primera Instancia 1]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
+                        <Condition>
+                            <Expression>
+                                <Text><![CDATA[<un objeto> no es <un objeto>]]></Text>
+                                <Param><![CDATA[Abogado]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["Lola"]]></Param>
+                                        <Param><![CDATA["Ejecución"]]></Param>
+                                        <Param><![CDATA[04/12/2023]]></Param>
+                                        <Param><![CDATA[18/12/2023]]></Param>
+                                        <Param><![CDATA["321/2022"]]></Param>
+                                        <Param><![CDATA[10]]></Param>
+                                        <Param><![CDATA[Escrito]]></Param>
+                                        <Param><![CDATA["Eugenio"]]></Param>
+                                        <Param><![CDATA[Madrid Juzgado de Primera Instancia 1]]></Param>
+                                    </Expression>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                    </Partition>
                 </Condition>
                 <Condition>
                     <Expression/>
