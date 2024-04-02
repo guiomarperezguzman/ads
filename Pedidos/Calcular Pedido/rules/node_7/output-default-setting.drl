@@ -4,8 +4,8 @@
   <uuid>953020f1-9ad9-4910-b02c-31f19e7f16b5</uuid>
   <locale>es_ES</locale>
   <definition><![CDATA[asignar a decisión un nuevo Cantidad Semanal en que
-		la Semana 1 es 0,30, 
-		la Semana 2 es 0,20, 
-		la Semana 3 es 0,20, 
-		la Semana 4 es 0,20 ;]]></definition>
+		la Semana 1 es 0,3 , 
+		la Semana 2 es 0,2 , 
+		la Semana 3 es 0,2 , 
+		la Semana 4 es 0,2 ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

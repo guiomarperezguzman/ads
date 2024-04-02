@@ -5,14 +5,13 @@
   <locale>en_US</locale>
   <definition><![CDATA[definitions
 -- Loop on potential offers
-set offer to an offer in 'Ranked retention offers' ;
-set cost to the estimated cost of offer;
+set 'offer' to an offer in 'Ranked retention offers' ;
+set 'cost' to the estimated cost of offer ;
 
 -- Select the best offer that is below the allocated budget
 -- Technical note: this rule will be evaluated once for every item in the list of offers, and in the end the most costly offer (while still below budget), will be retained.
 if cost is less than 'Retention monthly budget' and
    cost is at least the estimated cost of decision 
 then
-    set decision to offer;
-]]></definition>
+    set decision to offer ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

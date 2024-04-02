@@ -1,7 +1,7 @@
 
 # decisions.mlsamples.telco_retention.data.CustomerRecord
 decisions.mlsamples.telco_retention.data.CustomerRecord#concept.label = customer record
-decisions.mlsamples.telco_retention.data.CustomerRecord.CustomerRecord(double,java.lang.String,decisions.mlsamples.telco_retention.data.Location,java.lang.String,java.lang.String,java.lang.Long,boolean,double)#phrase.navigation = a new {customer record} where {0, estimated income} {1, gender} {2, location} {3, marital status} {4, name} {5, children} {6, car owner} {7, age}
+decisions.mlsamples.telco_retention.data.CustomerRecord.CustomerRecord(double,java.lang.String,decisions.mlsamples.telco_retention.data.Location,java.lang.String,java.lang.String,long,boolean,double)#phrase.navigation = a new {customer record} where {0, estimated income} {1, gender} {2, location} {3, marital status} {4, name} {5, children} {6, car owner} {7, age}
 decisions.mlsamples.telco_retention.data.CustomerRecord.estimatedIncome#phrase.action = set the estimated income of {this} to {estimated income}
 decisions.mlsamples.telco_retention.data.CustomerRecord.estimatedIncome#phrase.addition_setter = add {estimated income} to the estimated income of {this}
 decisions.mlsamples.telco_retention.data.CustomerRecord.estimatedIncome#phrase.navigation = {estimated income} of {this}

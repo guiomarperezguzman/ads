@@ -2,135 +2,135 @@
 package guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones;
 
 
-public class Roles
+class Roles
         extends java.lang.Enum
-        property "ads.typeId" "3"
-        property "com.fasterxml.jackson.annotation.JsonTypeName" "Roles"
-        property "de.generated" "true"
+        property ads.typeId "3"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Roles"
+        #de.generated
 {
     domain {static abogado, static aceptador, static tramitador}
-    public static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles abogado
-                property "ads.attributeId" "1"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Abogado";
-    public static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles aceptador
-                property "ads.attributeId" "3"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Aceptador";
-    public static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles tramitador
-                property "ads.attributeId" "2"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Tramitador";
+    static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles abogado
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "Abogado";
+    static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles aceptador
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "Aceptador";
+    static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles tramitador
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "Tramitador";
 }
 
-public class TipoDeProcedimiento
+class TipoDeProcedimiento
         extends java.lang.Enum
-        property "ads.typeId" "5"
-        property "com.fasterxml.jackson.annotation.JsonTypeName" "TipoDeProcedimiento"
-        property "de.generated" "true"
+        property ads.typeId "5"
+        property com.fasterxml.jackson.annotation.JsonTypeName "TipoDeProcedimiento"
+        #de.generated
 {
     domain {static apelacionDeVerbal, static escrito, static recurso}
-    public static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento apelacionDeVerbal
-                property "ads.attributeId" "3"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "ApelacionDeVerbal";
-    public static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento escrito
-                property "ads.attributeId" "2"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Escrito";
-    public static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento recurso
-                property "ads.attributeId" "1"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Recurso";
+    static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento apelacionDeVerbal
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "ApelacionDeVerbal";
+    static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento escrito
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "Escrito";
+    static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento recurso
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "Recurso";
 }
 
-public class Tramite
-        property "ads.typeId" "2"
-        property "com.fasterxml.jackson.annotation.JsonTypeName" "Tramite"
-        property "de.generated" "true"
+class Tramite
+        property ads.typeId "2"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Tramite"
+        #de.generated
 {
-    public string abogado
-                property "ads.attributeId" "2"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Abogado"
-                property update "true";
-    public string asunto
-                property "ads.attributeId" "3"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Asunto"
-                property update "true";
-    public ilog.rules.brl.SimpleDate fechaDePuestaADisposición
-                property "ads.attributeId" "9"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "FechaDePuestaADisposición"
-                property update "true";
-    public ilog.rules.brl.SimpleDate fechaLímite
-                property "ads.attributeId" "7"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "FechaLímite"
-                property update "true";
-    public string identificador
-                property "ads.attributeId" "10"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Identificador"
-                property update "true";
-    public java.lang.Long plazo
-                property "ads.attributeId" "8"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Plazo"
-                property update "true";
-    public guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento tipoDeProcedimiento
-                property "ads.attributeId" "5"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "TipoDeProcedimiento"
-                property update "true";
-    public string tramitador
-                property "ads.attributeId" "1"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Tramitador"
-                property update "true";
-    public guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional órganoJurisdiccional
-                property "ads.attributeId" "6"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "ÓrganoJurisdiccional"
-                property update "true";
-    public Tramite(string abogado, 
+    string abogado
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "Abogado"
+                #update;
+    string asunto
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "Asunto"
+                #update;
+    java.time.LocalDate fechaDePuestaADisposición
+                property ads.attributeId "9"
+                property com.fasterxml.jackson.annotation.JsonProperty "FechaDePuestaADisposición"
+                #update;
+    java.time.LocalDate fechaLímite
+                property ads.attributeId "7"
+                property com.fasterxml.jackson.annotation.JsonProperty "FechaLímite"
+                #update;
+    string identificador
+                property ads.attributeId "10"
+                property com.fasterxml.jackson.annotation.JsonProperty "Identificador"
+                #update;
+    long plazo
+                property ads.attributeId "8"
+                property com.fasterxml.jackson.annotation.JsonProperty "Plazo"
+                #update;
+    guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento tipoDeProcedimiento
+                property ads.attributeId "5"
+                property com.fasterxml.jackson.annotation.JsonProperty "TipoDeProcedimiento"
+                #update;
+    string tramitador
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "Tramitador"
+                #update;
+    guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional órganoJurisdiccional
+                property ads.attributeId "6"
+                property com.fasterxml.jackson.annotation.JsonProperty "ÓrganoJurisdiccional"
+                #update;
+    Tramite(string abogado, 
         string asunto, 
-        ilog.rules.brl.SimpleDate fechaDePuestaADisposición, 
-        ilog.rules.brl.SimpleDate fechaLímite, 
+        java.time.LocalDate fechaDePuestaADisposición, 
+        java.time.LocalDate fechaLímite, 
         string identificador, 
-        java.lang.Long plazo, 
+        long plazo, 
         guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.TipoDeProcedimiento tipoDeProcedimiento, 
         string tramitador, 
         guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional órganoJurisdiccional)
-                property autoExpand "true"
-                property beanConstructor "true"
+                #autoExpand
+                #beanConstructor
                 property groups "BALA"
-                property prototype "true";
-    public Tramite()
-                property "dataio.default" "true";
+                #prototype;
+    Tramite()
+                #dataio.default;
 }
 
-public class Usuario
-        property "ads.typeId" "1"
-        property "com.fasterxml.jackson.annotation.JsonTypeName" "Usuario"
-        property "de.generated" "true"
+class Usuario
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Usuario"
+        #de.generated
 {
-    public string identificador
-                property "ads.attributeId" "4"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Identificador"
-                property update "true";
-    public string nombre
-                property "ads.attributeId" "2"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Nombre"
-                property update "true";
-    public guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles rol
-                property "ads.attributeId" "1"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "Rol"
-                property update "true";
-    public guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional órganoJurisdiccional
-                property "ads.attributeId" "3"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "ÓrganoJurisdiccional"
-                property update "true";
-    public Usuario(string identificador, string nombre, guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles rol, guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional órganoJurisdiccional)
-                property autoExpand "true"
-                property beanConstructor "true"
+    string identificador
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "Identificador"
+                #update;
+    string nombre
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "Nombre"
+                #update;
+    guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles rol
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "Rol"
+                #update;
+    guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional órganoJurisdiccional
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "ÓrganoJurisdiccional"
+                #update;
+    Usuario(string identificador, string nombre, guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.Roles rol, guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional órganoJurisdiccional)
+                #autoExpand
+                #beanConstructor
                 property groups "BALA"
-                property prototype "true";
-    public Usuario()
-                property "dataio.default" "true";
+                #prototype;
+    Usuario()
+                #dataio.default;
 }
 
-public class ÓrganoJurisdiccional
+class ÓrganoJurisdiccional
         extends java.lang.Enum
-        property "ads.typeId" "4"
-        property "com.fasterxml.jackson.annotation.JsonTypeName" "ÓrganoJurisdiccional"
-        property "de.generated" "true"
+        property ads.typeId "4"
+        property com.fasterxml.jackson.annotation.JsonTypeName "ÓrganoJurisdiccional"
+        #de.generated
 {
     domain 
     {
@@ -140,20 +140,20 @@ public class ÓrganoJurisdiccional
         static madridJuzgadoDePrimeraInstancia1,
         static madridJuzgadoDePrimeraInstancia2
     }
-    public static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional madridJuzgadoDeLoMercantil1
-                property "ads.attributeId" "3"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "MadridJuzgadoDeLoMercantil1";
-    public static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional madridJuzgadoDeLoMercantil2
-                property "ads.attributeId" "4"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "MadridJuzgadoDeLoMercantil2";
-    public static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional madridJuzgadoDeLoSocial1
-                property "ads.attributeId" "5"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "MadridJuzgadoDeLoSocial1";
-    public static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional madridJuzgadoDePrimeraInstancia1
-                property "ads.attributeId" "1"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "MadridJuzgadoDePrimeraInstancia1";
-    public static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional madridJuzgadoDePrimeraInstancia2
-                property "ads.attributeId" "2"
-                property "com.fasterxml.jackson.annotation.JsonProperty" "MadridJuzgadoDePrimeraInstancia2";
+    static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional madridJuzgadoDeLoMercantil1
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "MadridJuzgadoDeLoMercantil1";
+    static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional madridJuzgadoDeLoMercantil2
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "MadridJuzgadoDeLoMercantil2";
+    static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional madridJuzgadoDeLoSocial1
+                property ads.attributeId "5"
+                property com.fasterxml.jackson.annotation.JsonProperty "MadridJuzgadoDeLoSocial1";
+    static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional madridJuzgadoDePrimeraInstancia1
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "MadridJuzgadoDePrimeraInstancia1";
+    static final readonly guiomar.perez_ibm.com.gpg_robot_procurador.notificaciones_asignar.notificaciones.ÓrganoJurisdiccional madridJuzgadoDePrimeraInstancia2
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "MadridJuzgadoDePrimeraInstancia2";
 }
 

@@ -7,9 +7,8 @@
     'Logical upgrade' is undefined 
 then
     add a new offer where
-        the estimated cost is  0.2 * the usage, 
-        the message is "Offer " + the name + " a 20% discount on his current subscription",
+        the estimated cost is  0.2 * the usage , 
+        the message is "Offer " + the name + " a 20% discount on his current subscription" ,
         the discount type is high discount 
-        to decision ;
-]]></definition>
+        to decision ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

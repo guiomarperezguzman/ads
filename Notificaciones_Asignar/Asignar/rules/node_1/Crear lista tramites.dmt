@@ -13,12 +13,12 @@
             <ConditionDefinitions>
                 <ConditionDefinition Id="C0">
                     <ExpressionDefinition>
-                        <Text><![CDATA[el Órgano jurisdiccional de Usuario es <un Órgano jurisdiccional>]]></Text>
+                        <Text><![CDATA[el Órgano jurisdiccional de 'Usuario' es <un Órgano jurisdiccional>]]></Text>
                     </ExpressionDefinition>
                 </ConditionDefinition>
                 <ConditionDefinition Id="C1">
                     <ExpressionDefinition>
-                        <Text><![CDATA[el Rol de Usuario es <un Roles>]]></Text>
+                        <Text><![CDATA[el Rol de 'Usuario' es <un Roles>]]></Text>
                     </ExpressionDefinition>
                 </ConditionDefinition>
             </ConditionDefinitions>
@@ -34,7 +34,7 @@
 	el Plazo es <Plazo> , 
 	el Tipo de procedimiento es <Tipo de procedimiento> , 
 	el Tramitador es <Tramitador> , 
-	el Órgano jurisdiccional es <Órgano jurisdiccional> a decisión]]></Text>
+	el Órgano jurisdiccional es <Órgano jurisdiccional> a 'decisión']]></Text>
                     </ExpressionDefinition>
                 </ActionDefinition>
             </ActionDefinitions>
@@ -181,33 +181,53 @@
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet/>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression/>
+                        </Action>
+                    </ActionSet>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet/>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression/>
+                        </Action>
+                    </ActionSet>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet/>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression/>
+                        </Action>
+                    </ActionSet>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet/>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression/>
+                        </Action>
+                    </ActionSet>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet/>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression/>
+                        </Action>
+                    </ActionSet>
                 </Condition>
             </Partition>
         </Contents>
     </Body>
     <Resources DefaultLocale="es_ES">
         <ResourceSet Locale="es_ES">
+            <Data Name="Definitions(A0)#HeaderText"><![CDATA[Lista tramites]]></Data>
+            <Data Name="Definitions(A0)#Width"><![CDATA[435]]></Data>
             <Data Name="Definitions(C0)#HeaderText"><![CDATA[Órgano jurisdiccional]]></Data>
             <Data Name="Definitions(C1)#HeaderText"><![CDATA[Rol]]></Data>
-            <Data Name="Definitions(A0)#Width"><![CDATA[435]]></Data>
-            <Data Name="Definitions(A0)#HeaderText"><![CDATA[Lista tramites]]></Data>
         </ResourceSet>
     </Resources>
 </DT>

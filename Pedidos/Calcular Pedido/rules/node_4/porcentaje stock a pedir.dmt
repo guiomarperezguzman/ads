@@ -20,7 +20,7 @@
             <ActionDefinitions>
                 <ActionDefinition Id="A0">
                     <ExpressionDefinition>
-                        <Text><![CDATA[asignar a decisión <un número>]]></Text>
+                        <Text><![CDATA[asignar a 'decisión' <un número>]]></Text>
                     </ExpressionDefinition>
                 </ActionDefinition>
             </ActionDefinitions>
@@ -162,11 +162,11 @@
     </Body>
     <Resources DefaultLocale="es_ES">
         <ResourceSet Locale="es_ES">
-            <Data Name="Definitions(A0)[]#Format"><![CDATA[{0,number,#0.##%}]]></Data>
-            <Data Name="Definitions(C0)#HeaderText"><![CDATA[Porcentaje en stock]]></Data>
-            <Data Name="Definitions(A0)[0]#HeaderText"><![CDATA[un número]]></Data>
             <Data Name="Definitions(A0)#HeaderText"><![CDATA[Porcentaje stock]]></Data>
+            <Data Name="Definitions(A0)[0]#HeaderText"><![CDATA[un número]]></Data>
+            <Data Name="Definitions(C0)#HeaderText"><![CDATA[Porcentaje en stock]]></Data>
         </ResourceSet>
     </Resources>
-</DT></definition>
+</DT>
+</definition>
 </ilog.rules.studio.model.dt:DecisionTable>

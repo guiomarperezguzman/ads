@@ -25,11 +25,11 @@
             <ActionDefinitions>
                 <ActionDefinition Id="A0">
                     <ExpressionDefinition>
-                        <Text><![CDATA[asignar a decisión un nuevo Cantidad Plataforma en que
-	la Plataforma Central es <Plataforma Central>, 
-	la Plataforma oeste es <Plataforma oeste>, 
-	la Plataforma Este es <Plataforma Este>, 
-	la Plataforma Norte es <Plataforma Norte>, 
+                        <Text><![CDATA[asignar a 'decisión' un nuevo Cantidad Plataforma en que
+	la Plataforma Central es <Plataforma Central> , 
+	la Plataforma oeste es <Plataforma oeste> , 
+	la Plataforma Este es <Plataforma Este> , 
+	la Plataforma Norte es <Plataforma Norte> , 
 	la Plataforma Sur es <Plataforma Sur>]]></Text>
                     </ExpressionDefinition>
                 </ActionDefinition>
@@ -135,44 +135,68 @@
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet/>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression/>
+                        </Action>
+                    </ActionSet>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet/>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression/>
+                        </Action>
+                    </ActionSet>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet/>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression/>
+                        </Action>
+                    </ActionSet>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet/>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression/>
+                        </Action>
+                    </ActionSet>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet/>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression/>
+                        </Action>
+                    </ActionSet>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet/>
+                    <ActionSet>
+                        <Action DefId="A0">
+                            <Expression/>
+                        </Action>
+                    </ActionSet>
                 </Condition>
             </Partition>
         </Contents>
     </Body>
     <Resources DefaultLocale="es_ES">
         <ResourceSet Locale="es_ES">
-            <Data Name="Definitions(A0)[4]#HeaderText"><![CDATA[Plataforma Sur]]></Data>
-            <Data Name="Definitions(A0)[]#Format"><![CDATA[{0,number,#0.##%}]]></Data>
-            <Data Name="Definitions(C0)#HeaderText"><![CDATA[Cantidad a pedir]]></Data>
-            <Data Name="Definitions(C1)#HeaderText"><![CDATA[Promocion]]></Data>
+            <Data Name="Definitions(A0)#HeaderText"><![CDATA[Cantidad por Plataforma]]></Data>
             <Data Name="Definitions(A0)#Width"><![CDATA[473]]></Data>
             <Data Name="Definitions(A0)[0]#HeaderText"><![CDATA[Plataforma Central]]></Data>
             <Data Name="Definitions(A0)[1]#HeaderText"><![CDATA[Plataforma oeste]]></Data>
-            <Data Name="Definitions(A0)#HeaderText"><![CDATA[Cantidad por Plataforma]]></Data>
             <Data Name="Definitions(A0)[2]#HeaderText"><![CDATA[Plataforma Este]]></Data>
             <Data Name="Definitions(A0)[3]#HeaderText"><![CDATA[Plataforma Norte]]></Data>
+            <Data Name="Definitions(A0)[4]#HeaderText"><![CDATA[Plataforma Sur]]></Data>
+            <Data Name="Definitions(C0)#HeaderText"><![CDATA[Cantidad a pedir]]></Data>
+            <Data Name="Definitions(C1)#HeaderText"><![CDATA[Promocion]]></Data>
         </ResourceSet>
     </Resources>
-</DT></definition>
+</DT>
+</definition>
 </ilog.rules.studio.model.dt:DecisionTable>

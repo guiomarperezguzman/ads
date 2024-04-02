@@ -7,9 +7,8 @@
     'Logical upgrade' is defined
 then
     add a new offer where
-        the estimated cost is  0.15 * the usage, 
-        the message is "Upgrade " + the name + " to " + 'Logical upgrade' + " with a 15% discount.",
+        the estimated cost is  0.15 * the usage , 
+        the message is "Upgrade " + the name + " to " + 'Logical upgrade' + " with a 15% discount." ,
         the discount type is upgrade 
-     to decision ;
-]]></definition>
+     to decision ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
